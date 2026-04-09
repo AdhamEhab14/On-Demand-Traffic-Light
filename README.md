@@ -1,2 +1,2 @@
 # PIC18 Traffic Light Controller
-This is a Proteus simulation of a traffic light system built around the PIC18F46K20 microcontroller. It manages standard traffic lights, pedestrian crossing signals, and a 2-digit 7-segment countdown timer.
+This is a Proteus simulation of a traffic light system built around the PIC18F4620 microcontroller. It manages standard traffic lights, pedestrian crossing signals, and a 2-digit 7-segment countdown timer.
