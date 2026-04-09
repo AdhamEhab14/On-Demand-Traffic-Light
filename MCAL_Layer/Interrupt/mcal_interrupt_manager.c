@@ -85,67 +85,14 @@ void __interrupt() InterruptManagerHigh(void){
     }
     /* ----------------------- PORTB External On Change Interrupt End --------------------------*/
     
-    /* -------------------------- ADC Module Interrupt Start -----------------------------------*/
-    if((INTERRUPT_ENABLE == PIE1bits.ADIE) && (INTERRUPT_OCCUR == PIR1bits.ADIF)){
-        ADC_ISR();
-    }
-    /* --------------------------- ADC Module Interrupt End -------------------------------------*/
+   
     
     /* -------------------------- Timers Module Interrupt Start -----------------------------------*/
     if((INTERRUPT_ENABLE == INTCONbits.TMR0IE) && (INTERRUPT_OCCUR == INTCONbits.TMR0IF)){
         TMR0_ISR();
     }
-
-    if((INTERRUPT_ENABLE == PIE1bits.TMR1IE) && (INTERRUPT_OCCUR == PIR1bits.TMR1IF)){
-        TMR1_ISR();
-    }
-    
-    if((INTERRUPT_ENABLE == PIE1bits.TMR2IE) && (INTERRUPT_OCCUR == PIR1bits.TMR2IF)){
-        TMR2_ISR();
-    }
-    
-    if((INTERRUPT_ENABLE == PIE2bits.TMR3IE) && (INTERRUPT_OCCUR == PIR2bits.TMR3IF)){
-        TMR3_ISR();
-    }
     
     /* -------------------------- Timers Module Interrupt End -----------------------------------*/
-    
-    /* -------------------------- CCP Module Interrupt Start -----------------------------------*/
-    if((INTERRUPT_ENABLE == PIE1bits.CCP1IE) && (INTERRUPT_OCCUR == PIR1bits.CCP1IF)){
-        CCP1_ISR();
-    }
-    
-    if((INTERRUPT_ENABLE == PIE2bits.CCP2IE) && (INTERRUPT_OCCUR == PIR2bits.CCP2IF)){
-        CCP2_ISR();
-    }
-    /* --------------------------- CCP Module Interrupt End -------------------------------------*/
-    
-    /* -------------------------- EUSART Module Interrupt Start -----------------------------------*/
-    if((INTERRUPT_ENABLE == PIE1bits.TXIE) && (INTERRUPT_OCCUR == PIR1bits.TXIF)){
-        EUSART_Tx_ISR();
-    }
-    
-    if((INTERRUPT_ENABLE == PIE1bits.RCIE) && (INTERRUPT_OCCUR == PIR1bits.RCIF)){
-        EUSART_Rx_ISR();
-    }
-    /* --------------------------- EUSART Module Interrupt End -------------------------------------*/
-    
-    
-    /* -------------------------- MSSP Module Interrupt Start -----------------------------------*/
-    
-    if((INTERRUPT_ENABLE == PIE1bits.SSPIE) && (INTERRUPT_OCCUR == PIR1bits.SSPIF)){
-        MSSP_SPI_ISR();
-    }
-    
-    if((INTERRUPT_ENABLE == PIE1bits.SSPIE) && (INTERRUPT_OCCUR == PIR1bits.SSPIF)){
-        MSSP_I2C_ISR();
-    }
-    
-    if((INTERRUPT_ENABLE == PIE2bits.BCLIE) && (INTERRUPT_OCCUR == PIR2bits.BCLIF)){
-        MSSP_I2C_BC_ISR();
-    }
-    
-    /* --------------------------- MSSP Module Interrupt End -------------------------------------*/
     
     
 }

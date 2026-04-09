@@ -10,7 +10,7 @@
 
 /***************************************Includes***************************************/
 
-#include "pic18f4620.h"
+
 #include "../mcal_std_types.h"
 #include "../device_config.h"
 #include "hal_gpio_cfg.h"

@@ -24,7 +24,7 @@ CLEAN_SUBPROJECTS=${CLEAN_SUBPROJECTS_${SUBPROJECTS}}
 
 
 # Project Name
-PROJECTNAME=Interfacing
+PROJECTNAME=On_Demand_Traffic_Light
 
 # Active Configuration
 DEFAULTCONF=default
