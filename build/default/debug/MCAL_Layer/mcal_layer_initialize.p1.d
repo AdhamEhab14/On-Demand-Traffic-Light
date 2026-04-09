@@ -1,0 +1,26 @@
+build/default/debug/MCAL_Layer/mcal_layer_initialize.p1:  \
+MCAL_Layer/mcal_layer_initialize.c  \
+MCAL_Layer/mcal_layer_initialize.h  \
+MCAL_Layer/Interrupt/mcal_external_interrupt.h  \
+MCAL_Layer/Interrupt/mcal_interrupt_config.h  \
+MCAL_Layer/Interrupt/mcal_interrupt_gen_cfg.h  \
+MCAL_Layer/Interrupt/../mcal_std_types.h  \
+MCAL_Layer/std_libraries.h  \
+MCAL_Layer/compiler.h  \
+MCAL_Layer/Interrupt/../../MCAL_Layer/GPIO/hal_gpio.h  \
+MCAL_Layer/Interrupt/../../MCAL_Layer/GPIO/../device_config.h  \
+MCAL_Layer/Interrupt/../../MCAL_Layer/GPIO/hal_gpio_cfg.h  \
+MCAL_Layer/Interrupt/mcal_internal_interrupt.h  \
+MCAL_Layer/EEPROM/hal_eeprom.h  \
+MCAL_Layer/ADC/hal_adc.h  \
+MCAL_Layer/ADC/hal_adc_cfg.h  \
+MCAL_Layer/Timer0/hal_timer0.h  \
+MCAL_Layer/Timer1/hal_timer1.h  \
+MCAL_Layer/Timer2/hal_timer2.h  \
+MCAL_Layer/Timer3/hal_timer3.h  \
+MCAL_Layer/CCP/hal_ccp.h  \
+MCAL_Layer/CCP/hal_ccp_cfg.h  \
+MCAL_Layer/EUSART/hal_eusart.h  \
+MCAL_Layer/EUSART/hal_eusart_cfg.h  \
+MCAL_Layer/SPI/hal_spi.h  \
+MCAL_Layer/I2C/hal_i2c.h 
