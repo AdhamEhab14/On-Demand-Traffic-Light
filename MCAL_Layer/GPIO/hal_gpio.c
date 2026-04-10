@@ -15,6 +15,8 @@ volatile uint8 *lat_registers[]  = {&LATA ,&LATB, &LATC, &LATD, &LATE};
 volatile uint8 *port_registers[] = {&PORTA ,&PORTB, &PORTC, &PORTD, &PORTE};
 
 
+
+
 /**
  * @brief initialize the direction of a specific pin @ref direction_t
  * @param config Pointer to the configurations  @ref pin_config_t
